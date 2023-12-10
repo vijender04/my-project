@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Fitness Club</title>
+    <style>
+        /* CSS Reset */
+        body{
+            color: wheat;
+
+            margin: 0px;
+            padding: 0px;
+background: url('https://th.bing.com/th/id/R.2d30e89b6efd9c6e15e48fa6f4b19834?rik=r%2bMAvZ%2b67f6brQ&riu=http%3a%2f%2fhintergrundbild.org%2fwallpaper%2ffull%2f4%2f4%2f7%2f59540-fitness-hintergrundbilder-1920x1200-mac.jpg&ehk=OkgV3ffDFQnJduOxBst4oTOKu893L0wtQ3Cz4MM8L8s%3d&risl=&pid=ImgRaw&r=0');
+
+        }
+        .left{
+            position: absolute;
+        left: 34px;
+        top: 22px;
+
+            display: inline-block;
+            border: 2px solid red;
+ 
+        }
+        .left img{
+            width: 70px;
+        }
+        .mid{
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+
+        }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 22px;
+
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 19px;
+    }
+    .navbar li a{
+        color: black;
+        text-decoration: none;
+        padding:20px 10px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+
+    }
+    .btn{
+        margin: 2px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        /* border: 2px solid gray; */
+        border-radius: 10px;
+        font-size: 20px;
+        
+    }
+.btn:hover{
+    background-color: rgb(64, 63, 63);
+}
+.con{
+    /* border: 2px solid green; */
+    margin: 151px 17px;
+    padding: 68px 99px ;
+    width: 33%;
+    border-radius: 33px;
+}
+.form-group {
+    text-align: center;
+    display: block;
+    width: 335px;
+    padding: 6px;
+    /* border: 2px solid black; */
+    margin: 11px auto;
+    border-radius: 10px;
+}
+.con button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+    <!-- left box for logo -->
+    <header class="header">
+        <div class="left">
+ <img src="https://lh3.googleusercontent.com/-7wldCZM06Aw/X4Ge1JpFTfI/AAAAAAAAH5U/Cs7QrGLw_jcwvgwwc30DI8gNR4uc5tgQwCLcBGAsYHQ/s1600/Fitness%2BLogo%2BDesign.jpg" alt="logo">
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+<ul class="navbar">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Fitness Calculator</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+<button class="btn">Call us </button>
+<button class="btn"> Email us</button>
+        </div>
+    </header>
+    <div class="con">
+        <h1> Join the best gym of Faridabad NOW</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                NAME: <input type="text"name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+               EMAIL: <input type="text"name="" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                AGE:   <input type="text"name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+             GENDER:   <input type="text"name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
